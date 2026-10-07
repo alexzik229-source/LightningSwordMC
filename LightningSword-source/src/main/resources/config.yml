@@ -1,0 +1,23 @@
+# Cooldown between lightning strikes (seconds)
+cooldown-seconds: 30
+
+# Max number of lightning uses per sword. After the last use the sword disappears.
+max-uses: 10
+
+# Damage of the lightning bolt (vanilla lightning = 5.0 = 2.5 hearts)
+lightning-damage: 5.0
+
+# Normal melee damage of the sword. 0 = no melee damage.
+# Hard-capped at 1.0 (half a heart) by the plugin.
+melee-damage: 0.0
+
+# true = only players get struck. false = mobs get struck too.
+players-only: true
+
+messages:
+  cooldown: "&cΤο σπαθί φορτίζει! Περίμενε %seconds%δ"
+  uses-left: "&6Χρήσεις που απομένουν: &e%uses%"
+  broken: "&cΤο Σπαθί του Κεραυνού εξαντλήθηκε!"
+  given: "&6Πήρες το &eΣπαθί του Κεραυνού&6!"
+  no-player: "&cΔεν βρέθηκε ο παίκτης."
+  usage: "&cΧρήση: /lightningsword <παίκτης>"

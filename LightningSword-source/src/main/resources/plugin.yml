@@ -1,0 +1,15 @@
+name: LightningSword
+version: '1.0.0'
+main: gr.alexgameclips.lightningsword.LightningSword
+api-version: '26.1'
+description: Golden Sword that strikes the hit player with a harmless-to-the-world lightning bolt.
+commands:
+  lightningsword:
+    description: Give the Lightning Sword
+    usage: /lightningsword [player]
+    aliases: [lsword]
+    permission: lightningsword.give
+permissions:
+  lightningsword.give:
+    description: Allows giving the Lightning Sword
+    default: op
